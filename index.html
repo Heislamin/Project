@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games Dashboard</title>
+  <link rel="icon" href="images/fav.jpg">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>Welcome to the Games Dashboard!</h1>
+    <div class="game-options">
+      <a href="index1.html" class="game-option">
+        <img src="images/logo.jpg" alt="Typing Game Icon">
+        <span>Typing Game</span>
+      </a>
+      <a href="index2.html" class="game-option">
+        <img src="images/logo2.jpg" alt="Quiz Game Icon">
+        <span>Quiz Mob</span>
+      </a>
+    </div>
+
+    <div class="contributors">
+      <h2>Contributors</h2>
+      <ul>
+        <li>
+          <img class="contributor-image" src="images/portrait.jpg" alt="Contributor 1"><br>
+          <span class="contributor-name">Fatoumata Jaiteh</span>
+        </li>
+        <li>
+          <img class="contributor-image" src="images/portrait2.jpg" alt="Contributor 2"><br>
+          <span class="contributor-name">Samuel Anyieth Ajak</span>
+        </li>
+        <li>
+          <img class="contributor-image" src="images/portrait1.jpg" alt="Contributor 3"><br>
+          <span class="contributor-name">Lamin Janka</span>
+        </li>
+        <li>
+          <img class="contributor-image" src="images/portrait.jpg" alt="Contributor 4"><br>
+          <span class="contributor-name">Favour Emmanuel Imo</span>
+        </li>
+        <li>
+          <img class="contributor-image" src="images/portrait3.jpg" alt="Contributor 5"><br>
+          <span class="contributor-name">Solih Etiko</span>
+        </li>
+      </ul>
+    </div>
+	<br><br>
+  </div>
+</body>
+<style>
+    body {
+      background-color: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .dashboard {
+      text-align: center;
+    }
+
+    .game-options {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+
+    .game-option {
+      text-decoration: none;
+      color: #333;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .game-option:hover {
+      transform: scale(1.05);
+    }
+
+    .game-option img {
+      max-width: 120px;
+      max-height: 120px;
+      border-radius: 50%; /* Make the image round */
+      margin-bottom: 10px;
+    }
+
+    .contributors {
+      margin-top: 40px;
+    }
+
+    .contributors h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .contributors ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contributors li {
+      margin: 0 15px; /* Adjusted margin for spacing */
+      text-align: center;
+    }
+
+    .contributor-image {
+      max-width: 150px;
+      max-height: 150px;
+      border-radius: 50%; /* Make the image round */
+      margin-bottom: 10px;
+    }
+
+    .contributor-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 5px; /* Adjust the margin for better spacing */
+    }
+	
+  </style>
+</html>
